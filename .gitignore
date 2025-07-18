@@ -1,13 +1,25 @@
 .idea/
-
 .vscode/
 
+# Solutions specific
 solutions/java/.idea/
 solutions/java/out/
-
 solutions/c++/.idea/
-
 solutions/c#/bin/
 solutions/c#/obj/
-
 *.py
+
+# Node.js and TypeScript
+node_modules/
+dist/
+*.log
+npm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Operating System Files
+.DS_Store
+Thumbs.db

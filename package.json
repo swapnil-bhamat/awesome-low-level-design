@@ -1,0 +1,22 @@
+{
+    "name": "awesome-low-level-design",
+    "version": "1.0.0",
+    "description": "Low Level Design Patterns and Solutions",
+    "scripts": {
+        "start:decorator": "ts-node design-patterns/Typescript/Structural\\ Pattern/Decorator\\ Design\\ Pattern/main.ts",
+        "build": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "design-patterns",
+        "typescript",
+        "low-level-design"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^24.0.14",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.3"
+    }
+}
